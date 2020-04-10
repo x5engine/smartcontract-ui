@@ -5,7 +5,7 @@
   "main": "src/smartcontract-app.js",
   "scripts": {
     "start": "budo demo/demo.js:bundle.js --dir . --title $npm_package_name --force-default-index --ssl --live --open -- --full-paths",
-    "build": "browserify demo/demo.js -o bundle.js"
+    "build": "browserify demo/demo.js -o build/bundle.js"
   },
   "author": "@ninabreznik",
   "license": "MIT",
